@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Withdrawal Page</title>
+</head>
+	<h1>BillyBank</h1>
+	<h1>Withdraw</h1>
+	<body>
+	<!-- Post will not show parameters in the url -->
+		<form method="post" action="withdrawServlet">
+			<table>
+				<tr>
+					<td>Username:</td>
+					<td><input name="username" /></td>
+				</tr>
+				<tr>
+					<td>Password:</td>
+					<td><input name="password" type="password" /></td>
+				</tr>
+				<tr>
+					<td>Account Number:</td>
+					<td><input name="accountNumber" /></td>
+				</tr>
+				<tr>
+					<td>Amount to Withdraw:</td>
+					<td><input name="withdrawAmount" /></td>
+				</tr>
+			</table>
+			<br>
+			<input type="submit" value="Withdraw">
+		</form>
+	</body>
+</html>

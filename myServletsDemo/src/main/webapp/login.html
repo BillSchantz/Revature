@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+</head>
+	<h1>BillyBank</h1>
+	<h2>Enter Username OR Email to login:</h2>
+	<body>
+	<!-- Post will not show parameters in the url -->
+		<form method="get" action="loginServlet">
+			<table>
+				<tr>
+					<td>Username:</td>
+					<td><input name="username" /></td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td><input name="email" /></td>
+				</tr>
+	
+				<tr>
+					<td>Password:</td>
+					<td><input name="password" type="password" /></td>
+				</tr>
+				<tr>
+					<td />
+					<td><input type="submit" value="Login" /></td>
+			</table>
+		</form>
+	</body>
+</html>
